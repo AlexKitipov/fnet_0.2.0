@@ -68,6 +68,7 @@ from FractalNet.fractals.julia import JuliaDataset
 from FractalNet.fractals.lindenmayer import LindenmayerDataset
 from FractalNet.datasets.reduced import ReducedFractalDataset
 
+
 🧪 Пример
 
 model = FractalNetModel()

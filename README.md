@@ -83,4 +83,4 @@ print(f"Брой изображения: {len(dataset)}")
 ## 🚀 Инсталация
 
 ```bash
-pip install fnet_0.2.0
+pip install fnet

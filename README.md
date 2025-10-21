@@ -56,6 +56,8 @@ git clone https://github.com/AlexKitipov/fnet_0.2.0.git
 cd fnet_0.2.0
 pip install -e .
 
+📦 Импортиране и използване
+
 from FractalNet.ml.fractal_layers import FractalNet as FractalNetModel
 from FractalNet.fractals.koch import KochDataset
 from FractalNet.fractals.sierpinski import SierpinskiDataset
@@ -65,6 +67,8 @@ from FractalNet.fractals.mandelbrot import MandelbrotDataset
 from FractalNet.fractals.julia import JuliaDataset
 from FractalNet.fractals.lindenmayer import LindenmayerDataset
 from FractalNet.datasets.reduced import ReducedFractalDataset
+
+🧪 Пример
 
 model = FractalNetModel()
 dataset = KochDataset(num_samples=10)
